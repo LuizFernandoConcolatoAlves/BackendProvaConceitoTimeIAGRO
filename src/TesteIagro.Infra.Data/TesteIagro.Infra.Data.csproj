@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TesteIagro.Domain\TesteIagro.Domain.csproj" />
+    <ProjectReference Include="..\TesteIagro.Infra.Files\TesteIagro.Infra.Files.csproj" />
+    <ProjectReference Include="..\TesteIagro.Infra.Utils\TesteIagro.Infra.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
